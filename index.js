@@ -1,8 +1,4 @@
-const path = require('path')
-const fs = require('fs')
 const db = require('./db')
-const home = process.env.HOME
-const dbPath = path.join(home, '.todo')
 
 module.exports.add = async (title) => {
     // 读取之前的任务

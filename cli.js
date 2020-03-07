@@ -1,4 +1,4 @@
-const program = require('commander');
+const program = require('commander')
 const api = require('./index')
 
 program
@@ -17,4 +17,4 @@ program
         console.log('This is clear')
     })
 
-program.parse(process.argv);
+program.parse(process.argv)
