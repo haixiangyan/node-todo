@@ -1,7 +1,13 @@
 {
-  "name": "node-todo",
+  "name": "easy-todo",
+  "bin": {
+    "todo": "cli.js"
+  },
+  "files": [
+    "*.js"
+  ],
   "version": "1.0.0",
-  "main": "cli.js",
+  "main": "index.js",
   "repository": "git@github.com:Haixiang6123/node-todo.git",
   "author": "Haixiang <haixiang6123@gmail.com>",
   "license": "MIT",
