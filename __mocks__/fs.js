@@ -4,8 +4,8 @@ const _fs = jest.requireActual('fs')
 
 Object.assign(fs, _fs)
 
-const readMocks = {}
-const writeMocks = {}
+let readMocks = {}
+let writeMocks = {}
 
 fs.setReadMocks = (path, error, data) => {
     readMocks[path] = [error, data]
@@ -35,6 +35,11 @@ fs.writeFile = (path, data, options, callback) => {
     else {
         _fs.writeFile(path, data, options, callback)
     }
+}
+
+fs.clearMocks = () => {
+    readMocks = {}
+    writeMocks = {}
 }
 
 module.exports = fs
