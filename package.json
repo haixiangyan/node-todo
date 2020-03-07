@@ -1,0 +1,11 @@
+{
+  "name": "node-todo",
+  "version": "1.0.0",
+  "main": "cli.js",
+  "repository": "git@github.com:Haixiang6123/node-todo.git",
+  "author": "Haixiang <haixiang6123@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^4.1.1"
+  }
+}
