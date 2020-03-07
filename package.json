@@ -6,6 +6,7 @@
   "author": "Haixiang <haixiang6123@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "commander": "^4.1.1"
+    "commander": "^4.1.1",
+    "inquirer": "^7.0.6"
   }
 }
